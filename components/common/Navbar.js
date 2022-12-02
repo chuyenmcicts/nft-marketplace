@@ -7,13 +7,13 @@ const Navbar = () => {
     const { theme, setTheme } = useTheme();
 
     return (
-        <nav className="flex justify-between w-full fixed z-10 p-4 flex-row border-b dark:bg-dark-color bg-white dark:border-dark-color-1 border-gray-color-1">
+        <nav className="fixed z-10 flex flex-row justify-between w-full p-4 bg-white border-b dark:bg-dark-color dark:border-dark-color-1 border-gray-color-1">
             {/* Logo */}
             <Link href="/" className="flex space-x-2">
-                <div className="flex flex-1 flex-row justify-start">
-                    <Image src="/assets/logo.png" height={32} width={32} alt="logo" />
+                <div className="flex flex-row justify-start flex-1">
+                    <Image src="/assets/logo.jpg" height={32} width={32} alt="logo" />
                 </div>
-                <p className="font-poppins text-dark-color-1 dark:text-white font-semibold text-lg">vugomars</p>
+                <p className="text-lg font-semibold font-poppins text-dark-color-1 dark:text-white">ChuyenMC</p>
             </Link>
             {/* Logo */}
 
@@ -28,7 +28,7 @@ const Navbar = () => {
             {/* Menu */}
 
             <div>
-                <button className="button-gradient px-4 py-1 rounded-md">
+                <button className="px-4 py-1 rounded-md button-gradient">
                     Button
                 </button>
             </div>

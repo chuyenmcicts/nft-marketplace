@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="flex items-center justify-center w-full">
         <a className="flex items-center justify-center space-x-4">
           <Image
-            src="/assets/logo.png"
+            src="/assets/logo.jpg"
             height={50}
             width={50}
             layout="intrinsic"
@@ -16,7 +16,7 @@ export default function Footer() {
             The NFT Marketplace
           </h1>
           <Image
-            src="/assets/logo.png"
+            src="/assets/logo.jpg"
             height={50}
             width={50}
             layout="intrinsic"
